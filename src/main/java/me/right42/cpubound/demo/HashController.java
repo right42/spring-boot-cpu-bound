@@ -12,7 +12,7 @@ public class HashController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello deploy";
+        return "hello deploy2";
     }
 
 
