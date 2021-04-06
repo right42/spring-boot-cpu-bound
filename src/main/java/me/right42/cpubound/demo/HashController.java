@@ -12,12 +12,13 @@ public class HashController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello deploy2";
+        return "webhook test";
     }
 
 
     @GetMapping("/hash/{input}")
     public String getHash(@PathVariable String input) {
+        System.out.println("test");
         for (int i = 0; i < 100000; i++) {
             input = getMd5Digest(input);
         }
