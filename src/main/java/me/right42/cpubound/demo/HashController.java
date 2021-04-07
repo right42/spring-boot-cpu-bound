@@ -12,7 +12,7 @@ public class HashController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "webhook test ";
+        return "webhook test";
     }
 
 
